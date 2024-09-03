@@ -1,31 +1,25 @@
+<!-- src/App.vue -->
 <template>
   <div id="app">
-    <header>
-      <nav>
-        <div class="logo">
-          <h1>Ajith's Portfolio</h1>
-        </div>
-        <ul class="nav-list">
-          <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/about">About</router-link></li>
-          <li><router-link to="/projects">Projects</router-link></li>
-          <li><router-link to="/contact">Contact</router-link></li>
-        </ul>
-      </nav>
-    </header>
+    <Header/>
 
-    <router-view></router-view> <!-- This is where the routed components will be rendered -->
+    <router-view></router-view> <!-- Render routed components here -->
 
-    <footer>
-      <p>&copy; 2024 Ajith's Portfolio</p>
-    </footer>
+    <Footer />
   </div>
 </template>
 
 <script>
+import Header from './components/HeaderSection.vue';
+import Footer from './components/FooterSection.vue';  // Import NavBar component
+
 export default {
   name: 'App',
-}
+  components: {
+    Header, 
+    Footer 
+  },
+};
 </script>
 
 <style>
