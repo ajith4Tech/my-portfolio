@@ -3,49 +3,60 @@
     <h2>Projects</h2>
     <div class="project-slider">
       <div class="project-card">
-        <img src="path/to/your/image.jpg" alt="Activity Tracking System" class="project-image" />
+        <img :src="require('@/assets/activity.jpeg')" alt="Activity Tracking System" class="project-image" />
         <h3>Activity Tracking System</h3>
         <ul>
-          <li><strong>Task Management:</strong> Create, assign, and prioritize tasks.</li>
-          <li><strong>Real-Time Tracking:</strong> Monitor the progress of activities.</li>
-          <li><strong>Reporting and Analytics:</strong> Generate detailed reports.</li>
-          <li><strong>Collaboration Tools:</strong> Enhance teamwork with features.</li>
+          <li><strong>Task Management:</strong> Assign and prioritize tasks.</li>
+          <li><strong>Real-Time Tracking:</strong> Monitor activity progress.</li>
+          <li><strong>Reporting:</strong> Generate detailed reports.</li>
+          <li><strong>Collaboration:</strong> Enhance teamwork features.</li>
         </ul>
       </div>
       <div class="project-card">
-        <img src="path/to/your/image.jpg" alt="Donor Management System" class="project-image" />
+        <img :src="require('@/assets/Dms.png')" alt="Donor Management System" class="project-image" />
         <h3>Donor Management System</h3>
         <ul>
-          <li><strong>Donor Profiles:</strong> Maintain detailed records.</li>
-          <li><strong>Donation Tracking:</strong> Monitor and record all donations.</li>
-          <li><strong>JWT Authorization:</strong> Implement secure JWT authorization.</li>
-          <li><strong>Communication Tools:</strong> Automate and personalize communication.</li>
-          <li><strong>Reporting and Analytics:</strong> Generate reports on donor engagement.</li>
+          <li><strong>Donor Profiles:</strong> Manage records.</li>
+          <li><strong>Donation Tracking:</strong> Record all donations.</li>
+          <li><strong>JWT Authorization:</strong> Secure access.</li>
+          <li><strong>Communication:</strong> Automate personalized messages.</li>
+          <li><strong>Reporting:</strong> Analyze donor engagement.</li>
         </ul>
       </div>
       <div class="project-card">
         <img :src="require('@/assets/cupa.png')" alt="Animal Care Tracker" class="project-image" />
         <h3>Animal Care Tracker</h3>
         <ul>
-          <li><strong>Animal Profiles:</strong> Maintain detailed records.</li>
-          <li><strong>Health Monitoring:</strong> Track medical treatments.</li>
-          <li><strong>Care Scheduling:</strong> Plan and manage care routines.</li>
-          <li><strong>Geo-Location Tracking:</strong> Utilize a reverse API for tracking.</li>
-          <li><strong>Reporting and Compliance:</strong> Generate compliance reports.</li>
+          <li><strong>Animal Profiles:</strong> Detailed records.</li>
+          <li><strong>Health Monitoring:</strong> Track treatments.</li>
+          <li><strong>Care Scheduling:</strong> Manage routines.</li>
+          <li><strong>Geo-Tracking:</strong> Reverse API tracking.</li>
+          <li><strong>Compliance:</strong> Generate reports.</li>
         </ul>
       </div>
       <div class="project-card">
-    <img src="/assets/brain-ct-image-registration.jpg" alt="Brain CT Image Registration" class="project-image" />
-    <h3>Brain CT Image Registration</h3>
-    <ul>
-          <li><strong>Intensity-Based:</strong> Align CT images based on voxel intensities, optimizing for high accuracy in image alignment.</li>
-          <li><strong>Feature-Based:</strong> Detect and match key features across images to improve registration, especially in cases with varying intensities.</li>
-      <li><strong>Deep Learning Model:</strong> Implement ResNet-50 for advanced feature extraction and alignment, enhancing the accuracy and robustness of the registration process.</li>
-      <li><strong>Image Registration Libraries:</strong> Use SimpleITK and OpenCV for efficient and effective image registration, leveraging their powerful algorithms for alignment and transformation.</li>
-      <li><strong>Automated Processing:</strong> Streamline image registration workflows with automated processing, reducing manual intervention and improving overall efficiency.</li>
-      <li><strong>Quality Control:</strong> Incorporate quality control measures to ensure the accuracy and reliability of the registered images, supporting high-quality medical analysis.</li>
-    </ul>
-  </div>
+        <img :src="require('@/assets/BrainCT.png')" alt="Brain CT Image Registration" class="project-image" />
+        <h3>Brain CT Image Registration</h3>
+        <ul>
+          <li><strong>Intensity-Based:</strong> Align based on voxel intensity.</li>
+          <li><strong>Feature-Based:</strong> Match key features.</li>
+          <li><strong>Deep Learning:</strong> Implement ResNet-50.</li>
+          <li><strong>Libraries:</strong> Use SimpleITK and OpenCV.</li>
+          <li><strong>Automation:</strong> Streamline workflows.</li>
+          <li><strong>Quality Control:</strong> Ensure accuracy.</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <img :src="require('@/assets/hms.png')" alt="Hospital Database Management System" class="project-image" />
+        <h3>Hospital Database Management System</h3>
+        <ul>
+          <li><strong>Appointment Booking:</strong> Simplify scheduling.</li>
+          <li><strong>Department Selection:</strong> Choose the right specialist.</li>
+          <li><strong>Records Management:</strong> Organize patient data.</li>
+          <li><strong>Doctor Availability:</strong> Real-time updates.</li>
+          <li><strong>Secure Data:</strong> Protect sensitive information.</li>
+        </ul>
+      </div>
       <!-- Add more project cards as needed -->
     </div>
   </section>
